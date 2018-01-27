@@ -1,0 +1,31 @@
+
+/*Within BaseLayout.js*/
+.navbar {
+  border: 1px solid #5C35BD;
+  margin-bottom: 2em;
+}
+
+.footer {
+  border: 1px solid #5C35BD;
+  margin-top: 2em;
+}
+
+/*Within App.js*/
+.flower_listings_container {
+    display: flex;
+    flex-direction: row;
+    width: 50em;
+}
+
+.flower_container {
+  display: inline-block;
+  list-style: none;
+  margin-left: 2em;
+  text-align: center;
+  width: 30em;
+}
+
+.style_flower_img {
+  height: 20em;
+  width: 20em;
+}
